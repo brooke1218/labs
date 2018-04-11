@@ -18,3 +18,18 @@ def file2list(fname):
         t.append(line)
         fin.close()
     return t
+
+def count_lines(fname):
+    """
+    Counts the number of lines in a fname input text file.
+    fname: string -file name of the input text file
+    Returns: integer - number of lines in the input text file
+    """
+    fin = open(fname, 'r') # create file object fin for reading
+    # define and initialize local variable num_lines to store result
+
+    for line in fin: #iterate through each line in fin
+        # increment num_lines
+    fin.close()
+    #modify statement below to return reduce result
+    return 0
